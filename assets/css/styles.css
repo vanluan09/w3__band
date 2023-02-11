@@ -120,20 +120,31 @@ html {
     font-size: 14px;
 }
 
-#header .search-btn {
-    float: right;
+#header .btn-menu {
+    display: none;
 }
 
-#header .search-btn:hover {
+#header .search-btn, #header .btn-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header .btn-menu:hover .icon-menu {
+    color: #000;
+    background-color: #ccc;
+}
+
+#header .search-btn:hover  {
     background-color: #f44336;
-    cursor: pointer;
 }
 
-#header .search-icon {
+#header .search-icon, #header .icon-menu {
     color: #fff;
     font-size: 18px;
     line-height: 46px;
     padding: 0 22px;
+    cursor: pointer;
 }
 
 #slider img {
@@ -164,11 +175,13 @@ html {
 
 #content .text-rection {
     width: 800px;
+    max-width: 100%;
     margin: auto;
-    padding: 74px 0 64px;
+    padding: 74px 16px 64px;
     text-align: center;
     margin-bottom: 15px;
 }
+
 #content .text-rection h2 {
     font-size: 30px;
     font-weight: 500;
@@ -182,7 +195,7 @@ html {
 }
 
 #content .text-about {
-    padding: 15px 16px 0;
+    padding-top: 15px;
 }
 
 #content .text-about p {
@@ -336,6 +349,7 @@ html {
     width: 100%;
     padding: 10px;
     font-size: 15px;
+    border: 1px solid #ccc;
 }
 
 .contact-form .form-submit {

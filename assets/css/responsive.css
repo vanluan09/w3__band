@@ -1,0 +1,103 @@
+/* pc */
+@media (max-width: 1024px) {
+
+}
+
+/* tabnet */
+@media (max-width: 1023px) and (min-width: 740px) {
+
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+        width: 100%;
+    }
+
+
+    #nav li a {
+        width: 100%;
+    }
+
+    #nav li:first-child a {
+        width: auto;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+        
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 12px 40px;
+
+    }
+
+    #header .search-icon {
+        display: none;
+    }
+
+    #header .btn-menu {
+        display: block;
+    }
+
+    #slider .text-slider {
+        display: none;
+    }
+
+    #content .member {
+        float: none;
+        width: auto;
+        padding-top: 30px;
+    }
+
+    #content .member img {
+        width: auto;
+    }
+
+    .places {
+        display: block;
+    }
+
+    .place {
+        padding: 0 8px 16px;
+    }
+
+    .col-half {
+        width: 100%;
+        padding-top: 8px
+    }
+
+    .contact-form {
+        padding-top: 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 12px;
+    }
+
+    .place .place-about .ticket-btn {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .contact-form .form-submit {
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    .modal .modal-header {
+        width: auto;
+    }
+}
